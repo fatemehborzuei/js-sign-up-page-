@@ -1,0 +1,62 @@
+
+
+body {
+    
+    background: palegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+form {
+    background-color: pink;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px green;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+
+form input {
+    padding: 12px 15px;
+    border: 1px solid aqua;
+    border-radius: 8px;
+    font-size: 14px;
+    outline: none;
+    transition: all 0.3s ease;
+}
+
+
+form input:focus {
+    border-color: darkorchid;
+    box-shadow: 0 0 5px rgba(9, 132, 227, 0.3);
+}
+
+
+form input {
+    background-color: #0984e3;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+
+form input:hover {
+    background-color:hotpink;
+}
+
+
+form input:active {
+    transform: scale(0.98);
+}
+
+
